@@ -18,6 +18,9 @@ jobs:
           # Options
           user: dschunack
           template: classic
-          filename: metrics.plugin.achievements.svg
+          filename: metrics.svg
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
           plugin_achievements: yes
           plugin_achievements_only: sponsor, maintainer, octonaut
