@@ -19,8 +19,8 @@ jobs:
           user: dschunack
           template: classic
           filename: metrics.svg
+          gconfig_order: github.achievements, github.reactions
           plugin_reactions: yes
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
           plugin_achievements: yes
-          plugin_achievements_only: sponsor, maintainer, octonaut
