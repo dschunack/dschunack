@@ -1,6 +1,6 @@
 ### Hi, I'm Daniel 👋
 
-![GitHub stats](./metrics.plugin.achievements.svg)
+![GitHub stats](./metrics.svg)
 <!--
 **dschunack/dschunack** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
