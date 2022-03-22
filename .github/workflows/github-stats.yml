@@ -1,0 +1,22 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  # Currently only want to run every hour.. Don't know how much this would eat away at my 'free' compute time.
+  # push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Metrics embed
+        uses: lowlighter/metrics@v3.19
+        with:
+          # Options
+          user: dschunack
+          template: classic
+          filename: metrics.plugin.achievements.svg
+          plugin_achievements: yes
+          plugin_achievements_only: sponsor, maintainer, octonaut
