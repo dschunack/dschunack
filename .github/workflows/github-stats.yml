@@ -22,5 +22,7 @@ jobs:
           config_order: github.reactions, github.achievements
           plugin_reactions: yes
           plugin_reactions_limit: 100
-          plugin_reactions_details: percentage
+          plugin_reactions_details: absolute
           plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
